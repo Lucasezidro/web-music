@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url("./fontes/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Saudagar';
+    src: url("./fontes/saudagar/Saudagar.ttf")
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img{
+    z-index: 1;
+}
+
+.title{
+    position: relative;
+    margin-left: 25px;
+    font-family: 'Saudagar';
+    bottom: 400px;
+    top: 30px;
+    font-size: 16px;
+    z-index: 1;
+}
+
+h1{
+    position:relative;
+    margin-left: 500px;
+    color: white;
+    top: 80px;
+    font-family: 'Poppins';
+    font-size: 30px;
+    z-index: 1;
+}
+
+h2{
+    position: relative;
+    top: -10px;
+    color: white;top: 380px;
+    margin-left: 530px;
+    background-color: rgba(0,0,0,.3);
+    width: 307px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 8px;
+    z-index: 1;
+}
+
+p{
+    position: relative;
+    z-index: 1;
+    top: 420px;
+    font-family: 'Poppins';
+    color: white;
+    margin-left: 605px;
+}
+
+.seta{
+    position: relative;
+    width: 12px;
+    top: 430px;
+    margin-left: 670px;
+    cursor: pointer;
+    opacity: .8;
+    z-index: 1;
+}
+
+.img-primary{
+    position:absolute;
+    margin:auto;
+    top: 50%;
+    left: 49.9%;
+    transform: translate(-50%, -50%);
+    opacity: .8;
+    z-index: 1;
+}
+
+.primary{
+    width: 200px;
+}
+
+.nav{
+    position: relative;
+    margin-left: 1250px;
+    display: flex;
+    flex-direction:column;
+    width: 100px;
+    height: 300px;
+    padding: 20px;
+    bottom: 10px;
+    background-color: #d2f7f4;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0 0 10px;
+    z-index: 1;
+}
+
+.nav img{
+    position: relative;
+    width: 25px;
+    margin-bottom: 40px;
+    opacity: .6;
+    cursor: pointer;
+    top: 20px;
+    
+}
+
+.car{
+    position: relative;
+    display: flex;
+    background-color: #fac7c8;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    top: 30px;
+    border-radius: 0px 0 0 10px;
+}
+
+.carrinho{
+    position: relative;
+    top: 20px;    
+}
+
+button{
+    position: relative;
+    top: 20px;
+    width: 50px;
+    padding: 2px;
+    background-color: #fdbcbd;
+    border: none;
+    border-radius: 8px;
+    color: rgba(0,0,0,.6);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.left{
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    bottom: 0px;
+    background-color: #fac7c8;
+    z-index: 0;
+}
+
+.right{
+    position: relative;
+    width: 50%;
+    height: 100vw;
+    background-color: #CEECEA;
+    float: right;
+    bottom: 660px;
+    z-index: 0;
+}
+
+.logo{
+    margin: 30px 30px;
+    width: 45px;
+    opacity: .8;
+}
